@@ -66,7 +66,7 @@ map ,jtv <Esc>:'<,'>! jq .<CR>
 filetype plugin on
 
 "=== Vundle
-set rtp+=~/.vim/vundle.git
+set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'petdance/vim-perl'
