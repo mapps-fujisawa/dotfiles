@@ -157,15 +157,3 @@ nnoremap <silent> <C-O><C-N> :<C-U>Unite -buffer-name=files file/new<CR>
 nnoremap <silent> <C-O><C-H> :<C-U>Unite -buffer-name=files file_mru<CR>
 nnoremap <silent> <C-O :<C-U>Unite -buffer-name=files file_mru<CR>
 nnoremap <silent> <C-O><C-G> :<C-U>Unite -buffer-name=files buffer<CR>
-
-"=== NeoBundle plugins
-if has('vim_starting')
-  set nocompatible               " Be iMproved
-^
-  " Required:
-  set runtimepath+=~/.vim/bundle/neobundle.vim/
-endif
-^
-" Required:
-call neobundle#begin(expand('~/.vim/bundle/'))
-
