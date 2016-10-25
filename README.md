@@ -3,9 +3,8 @@
 
 Just for me :)
 
-
-## other info
 ---
+## other info
 
 Vimtutor
 > LANG=ja_JP.UTF-8 vimtutor
